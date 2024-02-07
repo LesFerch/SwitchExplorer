@@ -8,7 +8,7 @@ This program switches (i.e. toggles) the Windows 11 default file manager back an
 
 The switch is accomplished by applying or removing the registry entries shown [here](https://www.elevenforum.com/t/restore-classic-file-explorer-with-ribbon-in-windows-11.620/#Three). You do not need to look at those registry entries. The link is provided as an FYI only.
 
-**Note**: SwitchExplorer.exe requires Windows 11 23H2.
+**Note**: SwitchExplorer.exe requires Windows 11 22H2 or 23H2 with build revision 3007 or higher.
 
 **Note**: When switched to the Windows 10 Explorer, the Details pane will still be the new Windows 11 version. If you want to get the old Details pane, that allows direct editing of metadata, you will need to directly launch the Windows 10 Explorer. You can do that with the [OldExplorer](https://lesferch.github.io/OldExplorer) tool.
 
