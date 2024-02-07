@@ -13,9 +13,10 @@ namespace SwitchExplorer
             Application.SetCompatibleTextRenderingDefault(false);
 
             int buildNumber = int.Parse(Registry.GetValue(@"HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion", "CurrentBuild", "").ToString());
-            if (buildNumber < 22631)
+            int UBR = int.Parse(Registry.GetValue(@"HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion", "UBR", "").ToString());
+            if ((buildNumber < 21996) || (UBR < 3007))
             {
-                MessageBox.Show("Windows 11 23H2 or greater required", typeof(Program).Namespace);
+                MessageBox.Show("Windows 11 build revision 3007 or higher required", typeof(Program).Namespace);
                 return;
             }
 
