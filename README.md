@@ -22,9 +22,12 @@ The switch is accomplished by applying or removing the registry entries shown [h
 5. Double-click **SwitchExplorer.exe** to toggle Explorer
 6. If you skipped step 3, then, in the SmartScreen window, click More info and then Run anyway.
 
-**Note**: Some antivirus software may falsely detect the download as a virus. This can happen anytime you download a new executable and may require extra steps to whitelist the file.
+**Note**: Some antivirus software may falsely detect the download as a virus. This can happen any time you download a new executable and may require extra steps to whitelist the file.
 
+## Credits
 
+Thanks to YouTube user CRUCC for discovering the registry values that make this possible: https://www.youtube.com/watch?v=fLKqFMdmo8k
+\
 \
 \
 [![image](https://user-images.githubusercontent.com/79026235/153264696-8ec747dd-37ec-4fc1-89a1-3d6ea3259a95.png)](https://github.com/LesFerch/SwitchExplorer)
