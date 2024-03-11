@@ -36,7 +36,7 @@ The switch is accomplished by applying or removing the registry entries shown [h
 
 After installing **OldNewExplorer** and enabling **Show details pane on the bottom**:
 
-![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/ada55165-c5b2-46cf-873c-01e0fc717022)
+![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/a9ca7d07-380f-4479-a10a-245f0df47a0c)
 
 ## Alternatives
 
