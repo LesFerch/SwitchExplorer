@@ -36,7 +36,7 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Explorer.ico</ApplicationIcon>
+    <ApplicationIcon>SwitchExplorer.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
@@ -45,6 +45,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -62,6 +63,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Explorer.ico" />
+    <Content Include="RestartExplorerHere.ico" />
+    <Content Include="SwitchExplorer.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
