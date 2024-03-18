@@ -15,7 +15,7 @@
 
 ## Switch the Windows 11 default Explorer and Context Menu
 
-![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/c90c1c0f-be79-4a4d-a061-ab6510570f51)
+![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/ac13bdc1-a70c-489d-b3bb-b841944bbde8)
 
 With this tool you can:
 
