@@ -1,6 +1,6 @@
 # SwitchExplorer
 
-[![image](https://user-images.githubusercontent.com/79026235/152910441-59ba653c-5607-4f59-90c0-bc2851bf2688.png)Download the zip file](https://github.com/LesFerch/SwitchExplorer/releases/download/1.1.0/SwitchExplorer.zip)
+[![image](https://user-images.githubusercontent.com/79026235/152910441-59ba653c-5607-4f59-90c0-bc2851bf2688.png)Download the zip file](https://github.com/LesFerch/SwitchExplorer/releases/download/2.0.0/SwitchExplorer.zip)
 
 ## How to Download and Run
 
@@ -13,17 +13,28 @@
 
 **Note**: Some antivirus software may falsely detect the download as a virus. This can happen any time you download a new executable and may require extra steps to whitelist the file.
 
-## Switch the Windows 11 default Explorer
+## Switch the Windows 11 default Explorer and Context Menu
 
-This program switches (i.e. toggles) the Windows 11 default file manager back and forth between the the current version and the Windows 10 Explorer. That is, if your current Explorer is the Windows 11 version, double-clicking this program will switch to the Windows 10 version (the same one you can get to via the Control Panel). Double-clicking again will switch back to the current Windows 11 Explorer.
+![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/c90c1c0f-be79-4a4d-a061-ab6510570f51)
 
-The switch is accomplished by applying or removing the registry entries shown [here](https://www.elevenforum.com/t/restore-classic-file-explorer-with-ribbon-in-windows-11.620/#Three). You do not need to look at those registry entries. The link is provided as an FYI only. SwitchExplorer does not install any software. It only sets some user profile registry entries and restarts Explorer.
+With this tool you can:
+
+- Set the default Explorer in Windows 11 to the Windows 10 version (the same one you can access via the Control Panel).
+- Set the Windows 11 context menu (right-click menu) to the Windows 10 (classic) layout.
+
+Of course, you can also use the tool to undo the changes and switch back to the Windows 11 defaults.
+
+SwitchExplorer does not install any software. It only sets some user profile registry entries and restarts Explorer. It can be used by both Standard and Administrator users and can be run from a flash drive. There is nothing to install. Just download and run.
+
+Technical details:
+
+The Explorer and context menu changes are accomplished by applying or removing the registry entries shown [here](https://www.elevenforum.com/t/restore-classic-file-explorer-with-ribbon-in-windows-11.620/#Three) and [here](https://www.elevenforum.com/t/disable-show-more-options-context-menu-in-windows-11.1589/#One). You do not need to look at those registry entries. The links are provided as an FYI only.
 
 **Windows 10 Explorer on Windows 11:**
 
 ![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/6a3d68c4-2af0-4115-a8c9-65f353abe523)
 
-**Note**: SwitchExplorer.exe requires Windows 11 22H2 or 23H2 with build revision 3007 or higher.
+**Note**: SwitchExplorer.exe requires Windows 11 22H2 or higher with build revision 3007 or higher.
 
 **Note**: When switched to the Windows 10 Explorer, the Details pane will still be the new Windows 11 version. If you want to get the old Details pane, that allows direct editing of metadata, you can do that by using the [OldExplorer](https://lesferch.github.io/OldExplorer) tool or by enabling the Windows 7 style details pane using **OldNewExplorer** (see below).
 
