@@ -1,6 +1,6 @@
 # SwitchExplorer
 
-[![image](https://github.com/LesFerch/WinSetView/assets/79026235/63b7acbc-36ef-4578-b96a-d0b7ea0cba3a)Download the zip file](https://github.com/LesFerch/SwitchExplorer/releases/download/2.0.0/SwitchExplorer.zip)
+[![image](https://github.com/LesFerch/WinSetView/assets/79026235/0188480f-ca53-45d5-b9ff-daafff32869e)Download the zip file](https://github.com/LesFerch/SwitchExplorer/releases/download/2.0.0/SwitchExplorer.zip)
 
 ## How to Download and Run
 
@@ -59,5 +59,4 @@ Thanks to YouTube user CRUCC for discovering the registry values that make this 
 \
 \
 \
-[![image](**Note**: Some antivirus software may falsely detect the download as a virus. This can happen any time you download a new executable and may require extra steps to whitelist the file.
-)](https://github.com/LesFerch/SwitchExplorer)
+[![image](https://github.com/LesFerch/WinSetView/assets/79026235/63b7acbc-36ef-4578-b96a-d0b7ea0cba3a)](https://github.com/LesFerch/SwitchExplorer)
