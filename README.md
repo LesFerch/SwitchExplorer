@@ -32,7 +32,7 @@ The Explorer and context menu changes are accomplished by applying or removing t
 
 **Windows 10 Explorer on Windows 11:**
 
-![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/6a3d68c4-2af0-4115-a8c9-65f353abe523)
+![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/d3412669-9232-4ecb-9a56-b43dcd290072)
 
 **Note**: SwitchExplorer.exe requires Windows 11 22H2 or higher with build revision 3007 or higher.
 
