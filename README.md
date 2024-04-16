@@ -15,7 +15,7 @@
 
 ## Switch the Windows 11 default Explorer and Context Menu
 
-![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/99fe46d7-2248-464b-9c2e-de134a1e9b62)
+![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/b2a47468-4b91-48fd-94d3-cfdc2c659e0b)
 
 With this tool you can:
 
@@ -32,7 +32,7 @@ The Explorer and context menu changes are accomplished by applying or removing t
 
 **Windows 10 Explorer on Windows 11:**
 
-![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/d3412669-9232-4ecb-9a56-b43dcd290072)
+![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/9f768e17-a9d3-494e-9c9c-cc0161394c7e)
 
 **Note**: SwitchExplorer.exe requires Windows 11 22H2 or higher with build revision 3007 or higher.
 
@@ -43,11 +43,11 @@ The Explorer and context menu changes are accomplished by applying or removing t
 
 [OldNewExplorer](https://www.oldnewexplorer.com/) is a free tool from the author of [StartAllBack](https://www.startallback.com/) that provides some Windows 7 features on newer Windows versions. One of those features is the bottom-of-window details pane shown below. This allows for direct editing of file properties.
 
-![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/d49353ed-fe2c-4e06-bdc0-ab379c820720)
+![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/5e7e3053-8dd1-4af5-9c2d-efe9b8e5c61b)
 
 After installing **OldNewExplorer** and enabling **Show details pane on the bottom**:
 
-![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/d7554c4f-6d4f-4cfe-a522-7df247146587)
+![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/7cbaa13c-7163-443c-8990-c87f7efa901d)
 
 ## Alternatives
 
