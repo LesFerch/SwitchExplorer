@@ -43,11 +43,11 @@ The Explorer and context menu changes are accomplished by applying or removing t
 
 [OldNewExplorer](https://www.oldnewexplorer.com/) is a free tool from the author of [StartAllBack](https://www.startallback.com/) that provides some Windows 7 features on newer Windows versions. One of those features is the bottom-of-window details pane shown below. This allows for direct editing of file properties.
 
-![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/0476927f-c6c7-4360-9cd5-421a0415d8e2)
+![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/d49353ed-fe2c-4e06-bdc0-ab379c820720)
 
 After installing **OldNewExplorer** and enabling **Show details pane on the bottom**:
 
-![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/a9ca7d07-380f-4479-a10a-245f0df47a0c)
+![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/d7554c4f-6d4f-4cfe-a522-7df247146587)
 
 ## Alternatives
 
