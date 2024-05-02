@@ -8,7 +8,7 @@
 2. Extract **SwitchExplorer.exe**.
 3. Right-click **SwitchExplorer.exe**, select Properties, check Unblock, and click OK.
 4. Optionally move **SwitchExplorer.exe** to the folder of your choice.
-5. Double-click **SwitchExplorer.exe** to toggle Explorer
+5. Double-click **SwitchExplorer.exe** to set your Explorer and context menu preferences.
 6. If you skipped step 3, then, in the SmartScreen window, click More info and then Run anyway.
 
 **Note**: Some antivirus software may falsely detect the download as a virus. This can happen any time you download a new executable and may require extra steps to whitelist the file.
