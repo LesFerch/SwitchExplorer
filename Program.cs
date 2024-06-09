@@ -34,11 +34,11 @@ namespace SwitchExplorer
             int buildNumber = int.Parse(Registry.GetValue(NTkey, "CurrentBuild", "").ToString());
             int UBR = int.Parse(Registry.GetValue(NTkey, "UBR", "").ToString());
 
-            if ((buildNumber < 21996) || (UBR < 3007))
-            {
-                MessageBox.Show("Windows 11 build revision 3007 or higher required", myName);
-                return;
-            }
+            //if ((buildNumber < 21996) || (UBR < 3007))
+            //{
+            //    MessageBox.Show("Windows 11 build revision 3007 or higher required", myName);
+            //    return;
+            //}
 
             using (RegistryKey key = Registry.CurrentUser.OpenSubKey(E10A))
             {
