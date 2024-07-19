@@ -34,7 +34,7 @@ The Explorer and context menu changes are accomplished by applying or removing t
 
 ![image](https://github.com/LesFerch/SwitchExplorer/assets/79026235/9f768e17-a9d3-494e-9c9c-cc0161394c7e)
 
-**Note**: SwitchExplorer.exe requires Windows 11 22H2 or higher with build revision 3007 or higher.
+**Note**: SwitchExplorer.exe requires Windows 11 22H2 build 3007 or higher.
 
 **Note**: When switched to the Windows 10 Explorer, the Details pane will still be the new Windows 11 version. If you want to get the old Details pane, that allows direct editing of metadata, you can do that by using the [OldExplorer](https://lesferch.github.io/OldExplorer) tool or by enabling the Windows 7 style details pane using **OldNewExplorer** (see below).
 
