@@ -23,6 +23,8 @@ namespace SwitchExplorer
         static string E10B = @"Software\Classes\CLSID\{6480100b-5a83-4d1e-9f69-8ae5a88e9a33}";
         static string CCMA = @"Software\Classes\CLSID\{86CA1AA0-34AA-4E8B-A509-50C905BAE2A2}";
         static string CCMB = $@"{CCMA}\InprocServer32";
+        static string ADVK = @"Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced";
+        static string TBAR = @"Software\Microsoft\Internet Explorer\Toolbar";
 
         [STAThread]
         static void Main()
@@ -297,6 +299,9 @@ namespace SwitchExplorer
                     }
                     ExplorerRestartNeeded = true;
                 }
+
+                Registry.SetValue($@"{H}{ADVK}", "AlwaysShowMenus", 0, RegistryValueKind.DWord);
+                Registry.SetValue($@"{H}{TBAR}", "Locked", 1, RegistryValueKind.DWord);
 
                 if (ExplorerRestartNeeded) RestartExplorer();
             }
