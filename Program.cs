@@ -220,6 +220,8 @@ namespace SwitchExplorer
                     buttonOK.FlatStyle = FlatStyle.Flat;
                     buttonOK.FlatAppearance.BorderColor = SystemColors.Highlight;
                     buttonOK.FlatAppearance.BorderSize = 1;
+                    buttonOK.BackColor = Color.FromArgb(60, 60, 60);
+                    buttonOK.FlatAppearance.MouseOverBackColor = Color.Black;
                 }
                 Controls.Add(buttonOK);
 
