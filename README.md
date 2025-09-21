@@ -1,6 +1,6 @@
 # SwitchExplorer
 
-[![image](https://github.com/LesFerch/WinSetView/assets/79026235/0188480f-ca53-45d5-b9ff-daafff32869e)Download the zip file](https://github.com/LesFerch/SwitchExplorer/releases/download/2.0.3/SwitchExplorer.zip)
+[![image](https://github.com/LesFerch/WinSetView/assets/79026235/0188480f-ca53-45d5-b9ff-daafff32869e)Download the zip file](https://github.com/LesFerch/SwitchExplorer/releases/download/2.1.0/SwitchExplorer.zip)
 
 ## How to Download and Run
 
@@ -25,6 +25,22 @@ With this tool you can:
 Of course, you can also use the tool to undo the changes and switch back to the Windows 11 defaults.
 
 SwitchExplorer does not install any software. It only sets some user profile registry entries and restarts Explorer. It can be used by both Standard and Administrator users and can be run from a flash drive. There is nothing to install. Just download and run.
+
+Usage:
+  
+GUI: Double-click the app to use the interface to select your desired Explorer and Context menu options.
+
+Command line: SwitchExplorer [/e10] [/e11] [/c10] [/c11] [/x]
+
+`/e10`  Select the Windows 10 Explorer
+`/e11`  Select the Windows 11 Explorer
+`/c10`  Select the Windows 10 context menu
+`/c11`  Select the Windows 11 context menu
+`/x`    Do not reload Explorer.
+
+**Note**: The `/x` option is typcially used when running this tool as part of a configuration script where you will be sigining out/in or restarting anyhow.
+
+**Note:** Including both `/e10` and `/e11` or `/c10` and `/c11` on the command line will toggle between the Windows 10 and Windows 11 versions.
 
 Technical details:
 
