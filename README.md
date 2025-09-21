@@ -32,11 +32,11 @@ GUI: Double-click the app to use the interface to select your desired Explorer a
 
 Command line: SwitchExplorer [/e10] [/e11] [/c10] [/c11] [/x]
 
-`/e10`  Select the Windows 10 Explorer
-`/e11`  Select the Windows 11 Explorer
-`/c10`  Select the Windows 10 context menu
-`/c11`  Select the Windows 11 context menu
-`/x`    Do not reload Explorer.
+`/e10`  Select the Windows 10 Explorer\
+`/e11`  Select the Windows 11 Explorer\
+`/c10`  Select the Windows 10 context menu\
+`/c11`  Select the Windows 11 context menu\
+`/x`    Do not reload Explorer.\
 
 **Note**: The `/x` option is typcially used when running this tool as part of a configuration script where you will be sigining out/in or restarting anyhow.
 
@@ -76,3 +76,4 @@ Thanks to YouTube user CRUCC for discovering the registry values that make this 
 \
 \
 [![image](https://github.com/LesFerch/WinSetView/assets/79026235/63b7acbc-36ef-4578-b96a-d0b7ea0cba3a)](https://github.com/LesFerch/SwitchExplorer)
+
