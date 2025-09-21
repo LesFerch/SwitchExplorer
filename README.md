@@ -73,10 +73,12 @@ After installing **OldNewExplorer** and enabling **Show details pane on the bott
 
 Thanks to YouTube user CRUCC for discovering the registry values for switching Explorer: https://www.youtube.com/watch?v=fLKqFMdmo8k
 \
+\
 Thanks to user Garlin at elevenforum.com for streamlining the registry entries to switch Explorer.
 \
 \
 [![image](https://github.com/LesFerch/WinSetView/assets/79026235/63b7acbc-36ef-4578-b96a-d0b7ea0cba3a)](https://github.com/LesFerch/SwitchExplorer)
+
 
 
 
