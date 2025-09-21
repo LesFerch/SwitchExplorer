@@ -24,7 +24,7 @@ With this tool you can:
 
 Of course, you can also use the tool to undo the changes and switch back to the Windows 11 defaults.
 
-SwitchExplorer does not install any software. It only sets some user profile registry entries and restarts Explorer. It can be used by both Standard and Administrator users and can be run from a flash drive. There is nothing to install. Just download and run.
+SwitchExplorer does not install any software. It only sets some user profile registry entries and closes Explorer windows (so the change can take effect). It can be used by both Standard and Administrator users and can be run from a flash drive. There is nothing to install. Just download and run.
 
 Usage:
   
@@ -78,6 +78,7 @@ Thanks to user Garlin at elevenforum.com for streamlining the registry entries t
 \
 \
 [![image](https://github.com/LesFerch/WinSetView/assets/79026235/63b7acbc-36ef-4578-b96a-d0b7ea0cba3a)](https://github.com/LesFerch/SwitchExplorer)
+
 
 
 
