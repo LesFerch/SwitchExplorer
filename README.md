@@ -26,7 +26,7 @@ Of course, you can also use the tool to undo the changes and switch back to the 
 
 SwitchExplorer does not install any software. It only sets some user profile registry entries and closes Explorer windows (so the change can take effect). It can be used by both Standard and Administrator users and can be run from a flash drive. There is nothing to install. Just download and run.
 
-**NOTE**: The Windows 11 context menu switch will have no effect if you have the latest context menu, which includes the `Customize menu` option.
+> **NOTE**: The context menu switch will have no effect if you have the latest context menu, which includes the `Customize menu` option.
 
 
 ### Usage
