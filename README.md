@@ -90,6 +90,6 @@ Thanks to user Garlin at elevenforum.com for streamlining the registry entries t
 \
 Thanks to Md Farabi Mahbub (Off the Clock Labs) for publishing [updated context menu switch registry keys](https://offtheclocklabs.com/blog/windows-11-old-right-click-menu/).
 \
-
-
+\
+\
 [![image](https://github.com/LesFerch/WinSetView/assets/79026235/63b7acbc-36ef-4578-b96a-d0b7ea0cba3a)](https://github.com/LesFerch/SwitchExplorer)
