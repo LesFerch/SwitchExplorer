@@ -18,10 +18,19 @@ namespace SwitchExplorer
 
         static string E10A = @"Software\Classes\CLSID\{2aa9162e-c906-4dd9-ad0b-3d24a8eef5a0}";
         static string E10B = @"Software\Classes\CLSID\{6480100b-5a83-4d1e-9f69-8ae5a88e9a33}";
+
         static string CCMA = @"Software\Classes\CLSID\{86CA1AA0-34AA-4E8B-A509-50C905BAE2A2}";
-        static string CCMB = $@"{CCMA}\InprocServer32";
+        static string CCMA2 = $@"{CCMA}\InprocServer32";
+
+        static string CCMB = @"Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}";
+        static string CCMB2 = $@"{CCMB}\InprocServer32";
+
+        static string CCMC = @"Software\Classes\CLSID\{51668040-5e31-4023-bbe3-149163bd80f1}";
+        static string CCMC2 = $@"{CCMC}\InprocServer32";
+
         static string ADVK = @"Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced";
         static string TBAR = @"Software\Microsoft\Internet Explorer\Toolbar";
+        static string CMTK = @"Software\Microsoft\Windows\CurrentVersion\Explorer\ContextMenu";
 
         static string Option = "";
 
@@ -30,7 +39,7 @@ namespace SwitchExplorer
 		static bool c10;
 		static bool c11;
         static bool OK2Reload = true;
-        static bool restart = false;
+        static bool restart = true;
 
         static string myKey = @"HKEY_CURRENT_USER\Software\SwitchExplorer";
 
@@ -63,7 +72,7 @@ namespace SwitchExplorer
 
             if (buildNumber < 21996)
             {
-                MessageBox.Show("Windows 11 required", myName);
+                if (args.Length == 0) MessageBox.Show("Windows 11 required", myName);
                 return;
             }
 
@@ -72,14 +81,21 @@ namespace SwitchExplorer
                 Win10Explorer = key != null;
             }
 
-            using (RegistryKey key = Registry.CurrentUser.OpenSubKey(CCMB))
+            bool hasNewContextMenu;
+            using (RegistryKey contextMenuKey = Registry.CurrentUser.OpenSubKey(CMTK))
+            {
+                hasNewContextMenu = contextMenuKey != null;
+            }
+
+            string contextMenuCheckKey = hasNewContextMenu ? CCMB2 : CCMA2;
+            using (RegistryKey key = Registry.CurrentUser.OpenSubKey(contextMenuCheckKey))
             {
                 Win10ContextMenu = key != null;
             }
 
             if (args.Length == 0)
             {
-                try { restart = (int)Registry.GetValue(myKey, "RestartExplorer", 0) == 1; } catch { }
+                try { restart = (int)Registry.GetValue(myKey, "RestartExplorer", 1) == 1; } catch { }
                 var optionsDialog = new OptionsDialog();
                 optionsDialog.ShowDialog();
                 return;
@@ -157,7 +173,9 @@ namespace SwitchExplorer
             {
                 try
                 {
-                    Registry.SetValue($@"{H}{CCMB}", "", "", RegistryValueKind.String);
+                    Registry.SetValue($@"{H}{CCMA2}", "", "", RegistryValueKind.String);
+                    Registry.SetValue($@"{H}{CCMB2}", "", "", RegistryValueKind.String);
+                    Registry.SetValue($@"{H}{CCMC2}", "", "", RegistryValueKind.String);
                 }
                 catch
                 {
@@ -169,6 +187,8 @@ namespace SwitchExplorer
                 try
                 {
                     Registry.CurrentUser.DeleteSubKeyTree(CCMA, false);
+                    Registry.CurrentUser.DeleteSubKeyTree(CCMB, false);
+                    Registry.CurrentUser.DeleteSubKeyTree(CCMC, false);
                 }
                 catch
                 {
