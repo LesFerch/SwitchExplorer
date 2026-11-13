@@ -88,4 +88,8 @@ Thanks to YouTube user CRUCC for showing the registry values for switching Explo
 Thanks to user Garlin at elevenforum.com for streamlining the registry entries to switch Explorer.
 \
 \
+Thanks to Md Farabi Mahbub (Off the Clock Labs) for publishing updated context menu switch registry keys.
+\
+\
+
 [![image](https://github.com/LesFerch/WinSetView/assets/79026235/63b7acbc-36ef-4578-b96a-d0b7ea0cba3a)](https://github.com/LesFerch/SwitchExplorer)
