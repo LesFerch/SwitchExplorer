@@ -88,7 +88,7 @@ Thanks to YouTube user CRUCC for showing the registry values for switching Explo
 Thanks to user Garlin at elevenforum.com for streamlining the registry entries to switch Explorer.
 \
 \
-Thanks to Md Farabi Mahbub (Off the Clock Labs) for publishing updated context menu switch registry keys.
+Thanks to Md Farabi Mahbub (Off the Clock Labs) for publishing [updated context menu switch registry keys](https://offtheclocklabs.com/blog/windows-11-old-right-click-menu/).
 \
 \
 
