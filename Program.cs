@@ -22,11 +22,8 @@ namespace SwitchExplorer
         static string CCMA = @"Software\Classes\CLSID\{86CA1AA0-34AA-4E8B-A509-50C905BAE2A2}";
         static string CCMA2 = $@"{CCMA}\InprocServer32";
 
-        static string CCMB = @"Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}";
+        static string CCMB = @"Software\Classes\CLSID\{51668040-5e31-4023-bbe3-149163bd80f1}";
         static string CCMB2 = $@"{CCMB}\InprocServer32";
-
-        static string CCMC = @"Software\Classes\CLSID\{51668040-5e31-4023-bbe3-149163bd80f1}";
-        static string CCMC2 = $@"{CCMC}\InprocServer32";
 
         static string ADVK = @"Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced";
         static string TBAR = @"Software\Microsoft\Internet Explorer\Toolbar";
@@ -175,7 +172,6 @@ namespace SwitchExplorer
                 {
                     Registry.SetValue($@"{H}{CCMA2}", "", "", RegistryValueKind.String);
                     Registry.SetValue($@"{H}{CCMB2}", "", "", RegistryValueKind.String);
-                    Registry.SetValue($@"{H}{CCMC2}", "", "", RegistryValueKind.String);
                 }
                 catch
                 {
@@ -188,7 +184,6 @@ namespace SwitchExplorer
                 {
                     Registry.CurrentUser.DeleteSubKeyTree(CCMA, false);
                     Registry.CurrentUser.DeleteSubKeyTree(CCMB, false);
-                    Registry.CurrentUser.DeleteSubKeyTree(CCMC, false);
                 }
                 catch
                 {
